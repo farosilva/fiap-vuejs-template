@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <Header logoText="FIAP Landing Page" />
+    <Header logoText="@farosilva" />
     <router-view />
     <Footer />
   </div>
 </template>
 
 <script setup>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue';
+import Header from './components/Header.vue';
 </script>
